@@ -176,7 +176,6 @@ def coletar_dados(df):
                            "CEA": [cea]})
 
         # Imprime o DataFrame
-        print(df2)
         df2 = pd.concat([df, df2], ignore_index=True)
     df2.to_excel('archives/results/DadosAnbima.xlsx', index=False)
     print(df2)
